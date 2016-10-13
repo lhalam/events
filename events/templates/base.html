@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %}Events{% endblock %}</title>
+	<link rel="stylesheet/less" type="text/less" href="{% static 'css/style.less' %}">
+	<script type="text/javascript" src="{% static 'js/react.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/react-dom.min.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/less.min.js' %}"></script>
+</head>
+<body>
+{% block content %}
+<h1>You are Welcome!</h1>
+{% endblock %}
+</body>
+</html>
